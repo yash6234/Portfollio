@@ -1,29 +1,15 @@
 import React from "react";
+import iconFrontend from "../assets/image.png";
+import iconMern from "../assets/image copy.png";
 
 const items = [
   {
     title: "Frontend Developer",
-    icon: (
-      <img
-        width="22"
-        height="22"
-        viewBox="0 0 24 24"
-        fill="none"
-        src="src/assets/image.png"
-      />
-    ),
+    icon: <img width="22" height="22" src={iconFrontend} alt="Frontend" />,
   },
   {
     title: "MERN Stack Developer",
-    icon: (
-      <img
-        width="22"
-        height="22"
-        viewBox="0 0 24 24"
-        fill="none"
-        src="src/assets/image copy.png"
-      />
-    ),
+    icon: <img width="22" height="22" src={iconMern} alt="MERN" />,
   },
   // {
   //   title: "Website Hosting",

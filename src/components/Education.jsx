@@ -1,7 +1,7 @@
 import React from "react";
 import resumePdf from "../assets/PatelYashResume.pdf";
-import ssitLogo from "../assets/image copy 3.png";
-import gpgLogo from "../assets/image copy 2.png";
+import ssitLogo from "../assets/ssit.png";
+import gpgLogo from "../assets/gpg.png";
 
 export default function Education() {
   return (
